@@ -6,11 +6,11 @@ public class task {
     {
         Scanner sc = new Scanner(System.in);
         int number = 1 + (int)(100 * Math.random());
-        int K = 10;
+        int K = 5;
 
         int i, guess;
 
-        System.out.println("A number is chosen" + " between 1 to 100." + "Guess the number" + " within 10 trials.");
+        System.out.println("A number is chosen" + " between 1 to 100." + "Guess the number" + " within 5 trials.");
         System.out.println("best of luck!");
 
         for (i = 0; i < K; i++) {
